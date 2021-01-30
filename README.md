@@ -1,2 +1,2 @@
 # Hs-Bistro-restaurant
-This is a website for an online restaurant
+Link to the website is: https://henriettedusabimana.github.io/H-Bistro-restaurant/ 
