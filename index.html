@@ -33,17 +33,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-
         </div>
 
-        <div id="collapsable-nav" class="collapse navbar-collapse">
+               <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-             <li class="visible-xs active">
+            <li id="navHomeButton" class="visible-xs active">
               <a href="index.html">
                 <span class="glyphicon glyphicon-home"></span> Home</a>
             </li>
-            <li>
-              <a href="menu-categories.html">
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
                 <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
             </li>
             <li>
@@ -67,14 +66,14 @@
   </header>
 
   <div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
+    <a class="btn" href="tel:250-722-963-474">
     <span class="glyphicon glyphicon-earphone"></span>
-    410-602-5008
+    250-722-963-474
     </a>
   </div>
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
-  <div id="main-content" class="container">
+ <!--  <div id="main-content" class="container">
     <div class="jumbotron">
       <img src="images/jumbotron_2.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
     </div>
@@ -96,8 +95,8 @@
         </a>
       </div>
     </div>
-
-  </div>
+  </div> -->
+  <div id="main-content" class="container"></div>
 
 <footer class="panel-footer">
     <div class="container">
@@ -129,6 +128,7 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
